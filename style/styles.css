@@ -1,1 +1,120 @@
-body
+body {
+    background-image: url(img/vector-brick-texture-background.jpg);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #808080;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+header {
+    background: linear-gradient(#fef2e7, #fee5c9);
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+li {
+    list-style-type: none;
+    color: #20B2AA;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    color: #20B2AA;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #D2B48C;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color:#ADB0B6;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #20B2AA;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover  {
+    color: #D2B48C;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+section {
+    display: block;
+    padding: 10px;
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 8px 8px 12px #aaa;
+}
+
+div {
+    height: 350px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+#apropos {
+    background-color: #ffffff;
+    color: #808080;
+    height: 310px;
+    padding-left: 80px;
+    padding-right: 85px;
+}
+
+#cequejaime {
+    background: linear-gradient(#E1F1EF,#F1F9FB);
+}
+
+#contact {
+    background-color: #ffffff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 85px 10px 85px;
+}
+
+.centrertxt {
+    text-align: center;
+    margin: 4px;
+}
+
+.maphoto {
+    float: left;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 500px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 50px;
+}
+
+.floatright {
+    float: right;
+    margin-left: 50px;
+}
