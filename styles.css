@@ -1,18 +1,19 @@
 body {
-    background-image: url(img/vector-brick-texture-background.jpg);
+    background-image: url(img/background-texture2.jpg);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: #808080;
-    margin-left: 250px;
-    margin-right: 250px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
     background: linear-gradient(#fef2e7, #fee5c9);
     padding-top: 15px;
     padding-bottom: 35px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 li {
@@ -34,7 +35,7 @@ h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
     color: #D2B48C;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -66,16 +67,16 @@ section {
 }
 
 img {
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 8px 8px 12px #aaa;
 }
 
 div {
-    height: 350px;
-    margin-right: 80px;
-    margin-left: 80px;
+    height: auto;
     margin-top: 0px;
     padding-top: 30px;
+    margin-left: 0px;
+    margin-right: 90px;
 }
 
 #apropos {
@@ -87,14 +88,23 @@ div {
 }
 
 #cequejaime {
-    background: linear-gradient(#E1F1EF,#F1F9FB);
+    background: linear-gradient(#cfe8ee,#e5f3f6);
+}
+
+#colonnes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #contact {
     background-color: #ffffff;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding: 10px 85px 10px 85px;
+    padding: 10px 60px 10px 60px;
 }
 
 .centrertxt {
@@ -107,14 +117,4 @@ div {
     margin-top: 30px;
     margin-right: 50px;
     border-radius: 500px;
-}
-
-.floatleft {
-    float: left;
-    margin-right: 50px;
-}
-
-.floatright {
-    float: right;
-    margin-left: 50px;
 }
