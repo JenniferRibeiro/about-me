@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: linear-gradient(#caf3ed, #fef2e7);
+    background: linear-gradient(#caf3ed, #ecf6f6);
     padding-top: 15px;
     padding-bottom: 35px;
     border-top-left-radius: 20px;
@@ -87,7 +87,7 @@ div {
 }
 
 #cequejaime {
-    background: linear-gradient(#fef2e7, #caf3ed);
+    background: linear-gradient(#fef1e6, #fffaf6);
 }
 
 #colonnes {
